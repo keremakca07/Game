@@ -72,8 +72,8 @@ while gameOver == 1:
         for y in range(int(height / tiles.get_height())):
           screen.blit(tiles, (100*x, 100*y))
 
-    draw_text(screen, "Can="+ str(healthValue), 30, 19,14, (255, 0, 0))
-    draw_text(screen, "Skor=" + str(score), 30, 19, 39, (255, 0, 0))
+    draw_text(screen, "Health="+ str(healthValue), 30, 19,14, (255, 0, 0))
+    draw_text(screen, "Score=" + str(score), 30, 19, 39, (255, 0, 0))
 
     bulletIndex=0
 
